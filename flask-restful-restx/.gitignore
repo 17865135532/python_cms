@@ -1,0 +1,15 @@
+__pycache__
+.idea
+.vscode
+.cache
+venv
+.DS_Store
+*.log
+*.log.*
+.pytest_cache
+static/returns/*/*.pdf
+htmlcov/
+.coverage
+*.pid
+__pycache__
+celerybeat-schedule.*
