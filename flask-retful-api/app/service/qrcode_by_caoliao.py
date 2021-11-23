@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
     cl = CaoLiao()
 
-    dir = "/home/duanweiye/桌面/询证函_8_21/原始数据/识别失败的图片"
+    dir = "/home/XXX/桌面/询证函_8_21/原始数据/识别失败的图片"
     for parh in glob.glob(f"{dir}/*"):
         time.sleep(1)
         data = cl.parse_img(parh)

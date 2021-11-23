@@ -64,13 +64,13 @@ def deal_col_data(dec_info,qtype='ConfirmationLetter'):
 
 
 def main():
-    # test_img_dir = r"/home/duanweiye/桌面/询证函_8_21/原始数据/pdf_to_image_dir/img_path"
-    # test_img_dir = r"/home/duanweiye/桌面/TZ_总测试数据/100/invoice_choices_img"
-    # test_img_dir = "/home/duanweiye/桌面/询证函_8_21/原始数据/识别失败的图片"
-    test_img_dir = "/home/duanweiye/桌面/询证函_8_21/原始数据/tielu"
-    # test_img_dir = r"/home/duanweiye/桌面/询证函_8_21/原始数据/pdf_to_image_dir/img_path"
-    # test_img_dir = r"/home/duanweiye/桌面/询证函_8_21/原始数据/返回多值图片"
-    # test_img_dir = r"/home/duanweiye/桌面/TZ_总测试数据/invoice_chose_img_100"
+    # test_img_dir = r"/home/XXX/桌面/询证函_8_21/原始数据/pdf_to_image_dir/img_path"
+    # test_img_dir = r"/home/XXX/桌面/TZ_总测试数据/100/invoice_choices_img"
+    # test_img_dir = "/home/XXX/桌面/询证函_8_21/原始数据/识别失败的图片"
+    test_img_dir = "/home/XXX/桌面/询证函_8_21/原始数据/tielu"
+    # test_img_dir = r"/home/XXX/桌面/询证函_8_21/原始数据/pdf_to_image_dir/img_path"
+    # test_img_dir = r"/home/XXX/桌面/询证函_8_21/原始数据/返回多值图片"
+    # test_img_dir = r"/home/XXX/桌面/TZ_总测试数据/invoice_chose_img_100"
     url = 'http://127.0.0.1:8006/api/v1/qrcode'
     file_paths = glob.glob(f"{test_img_dir}/*")
     file_paths.sort()
@@ -113,7 +113,7 @@ def main():
 
 
 def bs64_img():
-    # test_img_dir = r"/home/duanweiye/桌面/TZ_总测试数据/100/invoice_choices_img"
+    # test_img_dir = r"/home/XXX/桌面/TZ_总测试数据/100/invoice_choices_img"
 
 
 

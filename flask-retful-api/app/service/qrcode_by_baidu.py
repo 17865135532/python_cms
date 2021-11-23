@@ -79,7 +79,7 @@ if __name__ == "__main__":
     bd = OcrBaidu()
     # 识别失败的整张进行 百度识别
 
-    img = "/home/duanweiye/桌面/询证函_8_21/原始数据/pdf_to_image_dir/img_path/3、回函原件-兰州永恒莉商贸有限公司-01-0-1-2.png"
+    img = "/home/XXX/桌面/询证函_8_21/原始数据/pdf_to_image_dir/img_path/3、回函原件-兰州永恒莉商贸有限公司-01-0-1-2.png"
     # img = "3、回函原件-兰州永恒莉商贸有限公司-01-0-1-2.png"
     img_content = open(img, 'rb').read()
     base64_data = base64.b64encode(img_content)

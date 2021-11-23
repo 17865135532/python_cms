@@ -74,7 +74,7 @@ def Recognise(img_path):
         print(k, v)
     return recognise
 
-img_path = "/home/duanweiye/桌面/询证函_8_21/原始数据/pdf_to_image_dir/img_path/1 006.jpg"
+img_path = "/home/XXX/桌面/询证函_8_21/原始数据/pdf_to_image_dir/img_path/1 006.jpg"
 im = cv2.imread(img_path)
 recognise_dic = Recognise(img_path)
 for k, value in recognise_dic.items():

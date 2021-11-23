@@ -78,8 +78,8 @@ def get_json_ali(image_path):
         ocr_result = r.json()
     print(f"阿里值:{ocr_result}")
 if __name__ == "__main__":
-    # test_img_dir = "/home/duanweiye/桌面/询证函_8_21/原始数据/识别失败的图片"
-    test_img_dir = "/home/duanweiye/桌面/git/git_pro/qrcode/img_plate_dir"
+    # test_img_dir = "/home/XXX/桌面/询证函_8_21/原始数据/识别失败的图片"
+    test_img_dir = "/home/XXX/桌面/git/git_pro/qrcode/img_plate_dir"
     file_paths = glob.glob(f"{test_img_dir}/*")
     file_paths.sort()
     result_list = []
