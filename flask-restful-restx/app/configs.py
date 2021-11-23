@@ -20,7 +20,7 @@ class CONFIG(BaseConfig):
     SIGN_EXPIRED_IN = float(os.environ.get('SIGN_EXPIRED_IN', 3600))
     TASK_USER_NAME = os.environ.get('TASK_USER_NAME', 'developer')
     DOC_URL_PATH = os.environ.get('DOC_URL_PATH', '/') if DEBUG else False
-    FILE_SECRET = os.environ.get('FILE_SECRET', 'vmHpNAGSokdfTPIM').encode()
+    FILE_SECRET = os.environ.get('FILE_SECRET', 'XXX').encode()
     if len(FILE_SECRET) != 16:
         raise Exception('Invalid FILE_SECRET')
     FASTDFS_CONF_PATH = os.environ.get(
@@ -33,7 +33,7 @@ class CONFIG(BaseConfig):
     MYSQL_PORT = os.environ.get('MYSQL_PORT', '3306')
     MYSQL_USER = os.environ.get('MYSQL_USER', 'root')
     MYSQL_PASSWORD = os.environ.get('MYSQL_PASSWORD', 'admin1234')
-    MYSQL_DB = os.environ.get('MYSQL_DB', 'taxPlatformService')
+    MYSQL_DB = os.environ.get('MYSQL_DB', 'xxx')
 
     SQLALCHEMY_DATABASE_URI = f'mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:{MYSQL_PORT}/{MYSQL_DB}'
 

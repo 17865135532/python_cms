@@ -209,10 +209,6 @@ if __name__ == '__main__':
 
 Flask-RESTX与Flask-RESTful的接口基本一致，相比Flask-RESTful，它可以自动生成Swagger API文档，可支持更多配置，具体实现参照文档[Flask-RESTX-Swagger文档](https://flask-restx.readthedocs.io/en/latest/swagger.html)
 
-### Demo项目
-
-此部分请参照[demo项目](http://47.92.135.131/gengjianqi/Demo)查看
-
 #### 数据模型models
 
 sqlalchemy是python web项目中最普遍使用的ORM工具库
